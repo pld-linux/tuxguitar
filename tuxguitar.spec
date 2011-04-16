@@ -1,15 +1,14 @@
 # TODO:
 # - prepare nice patch or sf
-# - fill summary and desc
-Summary:	tuxguitar
+Summary:	Multitrack tablature editor and player
 #Summary(pl.UTF-8):
 Name:		tuxguitar
-Version:	1.0
-Release:	0.7
+Version:	1.2
+Release:	0.1
 License:	LGPL v2.1+
 Group:		X11/Applications/Sound
 Source0:	http://dl.sourceforge.net/tuxguitar/%{name}-src-%{version}.tar.gz
-# Source0-md5:	a9873adad0df58202d889648eb484879
+# Source0-md5:	f41ed20e77c6c3d8968991a29c71b912
 URL:		http://www.tuxguitar.com.ar/
 BuildRequires:	ant
 # need eclipse-swt with cairo
@@ -22,7 +21,7 @@ Requires:	jpackage-utils
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-tuxguitar.
+TuxGuitar is a multitrack tablature editor and player.
 
 #% description -l pl.UTF-8 #.
 
